@@ -255,7 +255,9 @@
     /* Mobile nav */
     .mobile-nav {
       display: none;
-      width: 100%;
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      z-index: 100;
       background: rgba(10,10,10,0.95);
       border-top: 1px solid rgba(255,255,255,0.08);
       padding: 0.8rem 1.5rem;
@@ -300,13 +302,13 @@
       <h1 class="title">NiNE</h1>
       <p class="subtitle">A Fine Art Photobook.<br>132 Pages.<br>Ten Countries. NiNE Years.</p>
       <div class="divider"></div>
-      <p class="description">Leave your email and country below and be the first to know when the book ships near you. No spam — just one message when it's ready.</p>
+      <p class="description">Leave your email and country below and be the first to know when the book ships near you. Expected to ship by mid July. No spam — just one message when it's ready.</p>
 
       <form class="form" id="signupForm">
 
         <div class="field">
           <label for="name">Your name</label>
-          <input type="text" id="name" name="entry.2145452041" placeholder="Alejandro Morales" required />
+          <input type="text" id="name" name="entry.2145452041" placeholder="Enter your Name" required />
         </div>
 
         <div class="field">
